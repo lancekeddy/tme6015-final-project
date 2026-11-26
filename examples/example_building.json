@@ -1,0 +1,10 @@
+{
+  "_note": "Building-year bdg2_Fox_office_Easter_2016 from the Building Data Genome Project 2, a test-split building in the notebook, labelled daytime_weekday",
+  "kwh": [17931, 15678, 14993, 14274, 14135, 14789, 14808, 16127, 15344, 17160, 15740, 18513],
+  "peak_kw_billed": [79.1, 80.6, 38.8, 39.3, 39.4, 41.7, 41.4, 41.9, 42.2, 43.3, 59.9, 82.5],
+  "sq_ft": 29778,
+  "lat": 33.42,
+  "resolution_min": 60,
+  "building_type": "office_commercial",
+  "region": "US_Mountain"
+}

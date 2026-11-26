@@ -1,0 +1,30 @@
+# Raw source data (about 600 MB; download it as described in README.md)
+data/raw/
+
+# Untracked outputs of a dataset rebuild (src/make_dataset_v2.py)
+figures_v2/
+data/processed_v2/bills.csv
+data/processed_v2/profiles_*_hourly.csv
+data/processed_v2/sites_all_with_duplicates.csv
+
+# Training checkpoints and scratch outputs
+checkpoints/
+*.ckpt
+*.weights.h5
+
+# Python and Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Archives
+*.zip
+*.tar.gz
+
+# OS files
+.DS_Store
+._*
+Thumbs.db
+desktop.ini

@@ -1,0 +1,67 @@
+{
+  "rows_kept": 2387,
+  "unique_buildings": 1461,
+  "by_source": {
+    "bdg2": 2315,
+    "enernoc": 72
+  },
+  "duplicates_dropped": 30,
+  "ml_rows": 2191,
+  "ml_rows_aug": 21896,
+  "K": 4,
+  "kmeans_check": {
+    "silhouette_k4": 0.29,
+    "adjusted_rand_vs_rules": 0.491
+  },
+  "label_thresholds": {
+    "DN_FLAT": 1.3,
+    "DN_DAY": 1.8,
+    "WE_7DAY": 0.85
+  },
+  "borderline_rows_margin_lt_0_1": 1344,
+  "class_counts": {
+    "flat_7day": 966,
+    "daytime_weekday": 599,
+    "daytime_7day": 437,
+    "weekday_moderate": 385
+  },
+  "class_by_source": {
+    "daytime_7day": {
+      "bdg2": 420,
+      "enernoc": 17
+    },
+    "daytime_weekday": {
+      "bdg2": 568,
+      "enernoc": 31
+    },
+    "flat_7day": {
+      "bdg2": 950,
+      "enernoc": 16
+    },
+    "weekday_moderate": {
+      "bdg2": 377,
+      "enernoc": 8
+    }
+  },
+  "type_counts": {
+    "education": 939,
+    "assembly_public": 529,
+    "office_commercial": 472,
+    "lodging": 222,
+    "other": 81,
+    "industrial": 51,
+    "retail_food": 44,
+    "healthcare": 41,
+    "unknown": 8
+  },
+  "region_counts": {
+    "US_East": 1015,
+    "US_Central": 496,
+    "UK": 321,
+    "US_Mountain": 283,
+    "US_West": 201,
+    "Ireland": 71
+  },
+  "sites_500kW_5MW": 428,
+  "enernoc_uplift_median": 1.036
+}

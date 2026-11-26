@@ -1,0 +1,3 @@
+# Notebooks
+
+`01_models.ipynb` is the training and evaluation notebook. It loads `data/processed_v2/dataset_aug.csv` (or the same file from the Colab working folder or Google Drive), builds the 55 bill features, splits buildings into train, validation and test sets, trains dense networks and 1-D CNNs in Keras, runs 4-fold grouped cross-validation and learning curves, tunes the shaveable threshold on validation data, prints a test-set summary and an example prediction, and saves the final models and `preprocessing.json` to `models/`. Run it top to bottom, locally from this folder or in Google Colab; see the main README for setup.
